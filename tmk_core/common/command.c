@@ -211,7 +211,7 @@ static void print_status(void) {
 #ifndef PROTOCOL_VUSB
     // these aren't set on the V-USB protocol, so we just ignore them for now
     print_val_hex8(keyboard_protocol);
-    print_val_hex8(keyboard_idle);
+    //print_val_hex8(keyboard_idle);
 #endif
 #ifdef NKRO_ENABLE
     print_val_hex8(keymap_config.nkro);
